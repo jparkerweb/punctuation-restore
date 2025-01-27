@@ -1,0 +1,32 @@
+{
+  "name": "punctuation-restore",
+  "version": "0.1.0",
+  "description": "🧑‍🏭 Node.js package for restoring punctuation and casing to strings via ONNX Model `punctuation_fullstop_truecase_english`",
+  "main": "punctuationRestore.js",
+  "type": "module",
+  "scripts": {
+    "clean": "npx rimraf node_modules package-lock.json && npm install",
+    "example": "node example/example.js"
+  },
+  "keywords": [
+    "punctuation",
+    "nlp",
+    "onnx",
+    "text-processing"
+  ],
+  "author": "Justin Parker",
+  "homepage": "https://www.equilllabs.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jparkerweb/punctuation-restore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jparkerweb/punctuation-restore/issues",
+    "email": "equilllabs@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "onnxruntime-node": "^1.16.3",
+    "sentence-parse": "^1.3.0"
+  }
+}
