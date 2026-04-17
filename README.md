@@ -3,7 +3,7 @@
 A Node.js package that restores punctuation and casing to unpunctuated text using the `punctuation_fullstop_truecase_english` ONNX model:
 https://huggingface.co/1-800-BAD-CODE/punctuation_fullstop_truecase_english
 
-![punctuation-restore](./punctuation-restore.jpg)
+<img src="https://raw.githubusercontent.com/jparkerweb/punctuation-restore/main/punctuation-restore.jpg" alt="banner">
 
 ## Features
 
